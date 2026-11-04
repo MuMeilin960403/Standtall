@@ -1,5 +1,7 @@
 # 坐直 · StandTall
 
+[English](README.en.md) · 中文
+
 一个安静、常驻桌面的 Windows 坐姿与休息提醒工具。坐姿计时到达时，它弹出一张轻提示卡；每坐满一小时，它会强制出现一张走动休息倒计时卡。休息时长可调，是否允许提前关闭也可在设置里选择。
 
 它还有一个独立的**桌面状态条**：即使 Windows 系统托盘不注册图标，也能始终看到倒计时、打开主界面、开始休息和退出。
@@ -168,6 +170,7 @@ $env:QT_QPA_PLATFORM = "offscreen"
 ```text
 .
 ├── main.py                         # 启动入口
+├── README.md / README.en.md        # 中文 / English
 ├── standtall/
 │   ├── main.py                     # 参数、单实例、异常兜底
 │   ├── app.py                      # 计时器 → 窗口/托盘控制器
