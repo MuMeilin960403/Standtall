@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build output
+build/
+dist/
+*.spec
+*.log
+
+# Local runtime data and temporary validation artifacts
+data/
+StandTallData/
+.smoke-*/
+.build-smoke-*/
+.smoke-data/
+*.db
+*.db-wal
+*.db-shm
+.dsh-acl-recovery/
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+pytest-of-*/
